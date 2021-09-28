@@ -17,7 +17,7 @@
 
   <title>Erik Grivalsky</title>  
 
-<link href="./main.3f6952e4.css" rel="stylesheet"></head>
+<link href="./css/main.3f6952e4.css" rel="stylesheet"></head>
 
 <body class="">
 <div id="site-border-left"></div>
@@ -37,12 +37,13 @@
 
       <div class="collapse navbar-collapse" id="navbar-collapse">
         <ul class="nav navbar-nav ">
-          <li><a href="./index.html" title="">01 : Home</a></li>
-          <li><a href="./works.html" title="">02 : Works</a></li>
-          <li><a href="./about.html" title="">03 : About me</a></li>
-          <li><a href="./contact.html" title="">04 : Contact</a></li>
-          <li><a href="./components.html" title="">05 : Components</a></li>
-        </ul>
+          <ul class="nav navbar-nav ">
+            <li><a href="./index.html" title="">01 : Hello</a></li>
+            <li><a href="./projects.html" title="">02 : Projects</a></li>
+            <li><a href="./about.html" title="">03 : About me</a></li>
+            <li><a href="./resume.html" title="">04 : Resume</a></li>
+            <li><a href="./contact.html" title="">05 : Contact</a></li>
+          </ul>
 
 
       </div> 
@@ -56,8 +57,8 @@
       
       <div class="col-sm-8 col-sm-offset-2 section-container-spacer">
         <div class="text-center">
-          <h1 class="h2">02 : Works</h1>
-          <p>Nulla facilisi. Vivamus vestibulum, elit in scelerisque ultricies, nisl nunc pulvinar ligula, id sodales arcu sapien in nisi. Quisque libero enim, mattis non augue posuere, venenatis dapibus urna.</p>
+          <h1 class="h2">02 : Projects</h1>
+          <p>Some of my more interesting or most recent projects that are currently deployed. Check out the live project or take a look at the Github repo.</p>
         </div>
       </div>
 
@@ -70,36 +71,39 @@
                 <div class="row">
                     <div class="col-sm-4">
 
-                      <a href="./work.html" title="" class="black-image-project-hover">
-                        <img src="./assets/images/work01-hover.jpg" alt="" class="img-responsive">
+                      <a href="https://jokebot8000.herokuapp.com/" title="" class="black-image-project-hover">
+                        <img src="./assets/images/robot-2.jpg" alt="" class="img-responsive">
                       </a>
                       <div class="card-container card-container-lg">
-                        <h4>001/006</h4>
-                        <h3>Fringilla sit amet</h3>
-                        <p>Nulla facilisi. Vivamus vestibulum, elit in scelerisque ultricies.</p>
-                        <a href="./work.html" title="" class="btn btn-default">Discover</a>
+                        <h4>001/003</h4>
+                        <h3>Jokebot</h3>
+                        <p>A word association tool to help joke writers write jokes. Users can find current headlines and click to search for related words, then tweet jokes.</p>
+                        <a href="https://jokebot8000.herokuapp.com/" title="" class="btn btn-primary">Discover</a>
+                        <a href="https://github.com/egrivalsky/jokebot_django" title="" class="btn btn-default">Github</a>
                       </div>
                     </div>
                     <div class="col-sm-4">
                       <a href="./work.html" title="" class="black-image-project-hover">
-                        <img src="./assets/images/work02-hover.jpg" alt="" class="img-responsive">
+                        <img src="./assets/images/platform-2.jpg" alt="" class="img-responsive">
                       </a>
                       <div class="card-container card-container-lg">
-                        <h4>002/006</h4>
-                        <h3>Nulla scelerisque</h3>
-                        <p>Proin pharetra metus id iaculis dignissim. In aliquet lorem ut ex ullamcorper.</p>
-                        <a href="./work.html" title="" class="btn btn-default">Discover</a>
+                        <h4>002/003</h4>
+                        <h3>The Platform</h3>
+                        <p>A social media platform based on the NYC subway system. Register securely and manage posts and comments, share photos, follow others, and rate subway stations.</p>
+                        <a href="https://the-platform-nyc.herokuapp.com/" title="" class="btn btn-primary">Discover</a>
+                        <a href="https://github.com/egrivalsky/subway-club-2" title="" class="btn btn-default">Github</a>
                       </div>
                     </div>
                     <div class="col-sm-4">
-                      <a href="./work.html" title="" class="black-image-project-hover">
-                        <img src="./assets/images/work03-hover.jpg" alt="" class="img-responsive">
+                      <a href="http://games.erikgrivalsky.com" title="" class="black-image-project-hover">
+                        <img src="./assets/images/life-2.jpg" alt="" class="img-responsive">
                       </a>
                       <div class="card-container card-container-lg">
-                        <h4>003/006</h4>
-                        <h3>Vivamus vestibulum</h3>
-                        <p>Fusce sed hendrerit augue, a rhoncus velit. In non lorem mattis, tempor sem sit amet.</p>
-                        <a href="./work.html" title="" class="btn btn-default">Discover</a>
+                        <h4>003/003</h4>
+                        <h3>Game of Life</h3>
+                        <p>A board for experimenting with John Conway’s Game of Life. Two or three neighbors and a cell gets to live.</p>
+                        <a href="https://games.erikgrivalsky.com" title="" class="btn btn-primary">Play</a>
+                        <a href="https://github.com/egrivalsky/game-of-life" title="" class="btn btn-default">Github</a>
                       </div>
                     </div>
                     
@@ -107,16 +111,16 @@
                 <!--/row-->
             </div>
             <!--/item-->
-            <div class="item">
+            <!-- <div class="item">
                 <div class="row">
                   <div class="col-sm-4">
                     <a href="./work.html" class="black-image-project-hover">
                       <img src="./assets/images/work02-hover.jpg" alt="Image" class="img-responsive">
                     </a>
                     <div class="card-container">
-                      <h4>004/006</h4>
-                      <h3>Nulla scelerisque</h3>
-                      <p>Proin pharetra metus id iaculis dignissim. In aliquet lorem ut ex ullamcorper.</p>
+                      <h4>004/004</h4>
+                      <h3>BaristaMax</h3>
+                      <p>A coffee shop simulation game. Player receives cafe orders and has to select ingredients in a given time. A browser-based, functionally programmed point-and-click game.</p>
                       <a href="./work.html" class="btn btn-default">Discover</a>
                     </div>
                   </div>
@@ -172,7 +176,7 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <p>© UNTITLED | Website created with <a href="http://www.mashup-template.com/" title="Create website with free html template">Mashup Template</a>/<a href="https://www.unsplash.com/" title="Beautiful Free Images">Unsplash</a></p>
+        <p>© Erik G! | Website created with <a href="http://www.mashup-template.com/" title="Create website with free html template">Mashup Template</a>/<a href="https://www.unsplash.com/" title="Beautiful Free Images">Unsplash</a></p>
       </div>
     </div>
   </div>
@@ -197,6 +201,6 @@
   ga('send', 'pageview');
 </script>
 
---> <script type="text/javascript" src="./main.70a66962.js"></script></body>
+--> <script type="text/javascript" src="./js/main.70a66962.js"></script></body>
 
 </html>
